@@ -13,7 +13,7 @@ class Click():
         self.Clickupgradestate = 0
         self.CPSupgradestate = 0
 
-ClickObject = Click(0,1,15,0,0)
+ClickObject = Click(0,1,0,0,0)
 
 
 ###FUNCTIONS
@@ -119,7 +119,6 @@ def basicclick():
 """
 
 mainbutton = Button(root, text="Click", command=basicclick, padx=50,pady=50,borderwidth="15", bg="blue",fg="black")
-ClickObject.CPS = 1500000
 CPS()
 time.sleep(.1)
 
